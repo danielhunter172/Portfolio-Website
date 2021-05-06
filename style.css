@@ -1,3 +1,37 @@
 ﻿body
 {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.navigation-items {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.navigation-item {
+    padding: 5px;
+}
+
+.navigation-item:hover {
+    background-color: darkblue;
+    height: 100%;
+    width: 100%;
+}
+
+.navigation-item a {
+    text-decoration: none;
+    color: white;
 }
