@@ -1,9 +1,8 @@
 ﻿html {
-    
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 body {
-    scroll-behavior: smooth;
     margin: 0;
     padding: 0;
     text-align: center;
