@@ -2,6 +2,8 @@
 {
     margin: 0;
     padding: 0;
+    text-align: center;
+    align-items: center;
 }
 
 nav {
@@ -11,7 +13,6 @@ nav {
     color: white;
     padding: 0;
     margin: 0;
-    height: 100%;
 }
 
 .navigation-items {
@@ -19,19 +20,42 @@ nav {
     list-style: none;
     align-items: center;
     margin: 0 auto;
+    padding: 0;
 }
 
 .navigation-item {
-    padding: 5px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
 }
 
 .navigation-item:hover {
     background-color: darkblue;
-    height: 100%;
-    width: 100%;
 }
 
 .navigation-item a {
     text-decoration: none;
     color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1200px;
+    height: 900px;
+    background-image: url(resources/images/background.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    margin: auto auto;
+    padding: 0;
+    background-position: top center;
+    background-size: cover;
+}
+.header-text h1{
+    padding-top: 300px;
 }
